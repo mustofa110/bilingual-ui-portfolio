@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding: 0px 70px;
+    font-size: 16px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #777575e4;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bottom-nav input {
+    height: 40px;
+    width: 300px;
+    padding: 9px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f3eeeef5;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 100;
+    gap: 20px;
+    color: #3a3a3a;
+}
+
+.first {
+    width: 100%;
+    height: 85%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(asset/Banner.png);
+    color: white;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.content p {
+    color: rgba(255, 255, 255, 0.688);
+    font-size: 18px;
+}
+
+.content h1 {
+    font-size: 6vw;
+    font-weight: 200;
+    line-height: 95px;
+}
+
+.content h1 span {
+    font-weight: 500;
+}
+
+.content h5 {
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 19px;
+}
+
+.content button {
+    padding: 12px 40px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.second {
+    width: 100%;
+    height: 75%;
+    /* background-color: crimson; */
+    display: flex;
+}
+
+.box-left {
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+}
+
+.box-right {
+    background-image: url(asset/Big\ Banner.png);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.br-content {
+    position: relative;
+    top: 32%;
+    left: 30px;
+}
+
+.br-content h2 {
+    font-size: 3.8vw;
+    font-weight: 200;
+}
+
+.br-content p {
+    font-size: 14px;
+    width: 400px;
+    color: #3a3a3a;
+}
+
+.br-content h2 span {
+    font-weight: 400;
+}
+
+.br-content button {
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: solid 1px rgb(12, 10, 10);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.box-top {
+    width: 100%;
+    height: 50%;
+    background-image: url(asset/Square\ Banner1.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.bt-content {
+    width: 60%;
+    position: relative;
+    left: 42%;
+    top: 28%;
+}
+
+.bt-content h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    color :#e6e6e6
+}
+
+.bt-content p {
+    font-size: 12px;
+    width: 85%;
+    color: #e6e6e6;
+}
+
+.box-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(85, 80, 83); 
+    display: flex;
+}
+
+.mini-left {
+    width: 50%;
+    height: 100%;
+    background-image: url(asset/Square\ Banner\(1\).png);
+    background-position: top;
+    background-size: cover;
+}
+
+.ml-content {
+    position: relative;
+    left: 45%;
+    top: 30%;
+}
+
+.ml-content h3 {
+    font-size: 1.7vw;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.ml-content p {
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+.ml-content h3 span {
+    font-weight: 600;
+}
+
+.mr-content {
+    position: relative;
+    left: 48%;
+    top: 30%;
+    color: white;
+}
+
+.mr-content h3 {
+    font-size: 1.7vw;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.mr-content p {
+    font-size: 12px;
+    color: #3a3a3a;
+    color: rgb(167, 167, 167);
+}
+
+.mr-content h3 span {
+    font-weight: 600;
+}
+
+.mini-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(imgs/Square\ Banner1.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.third {
+    width: 100%;
+    height: 40%;
+    background-color: #ffffffef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-content {
+    width: 80%;
+    height: 55%;
+}
+
+.t-p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.object {
+    display: flex;
+    padding-top: 20px;
+    gap: 50px;
+}
+
+.object .icon-box {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    width: 300px;
+    background-color: #e6e6e6;
+}
+
+.icon-box i {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.icon-box p {
+    font-size: 13px;
+}
+
+.fourth {
+    height: 90%;
+    width: 100%;
+    /* background-color: rgb(70, 55, 55); */
+    display: flex;
+}
+
+.f-box1 {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(251, 251, 251);
+}
+
+.f-box2 {
+    height: 100%;
+    width: 25%;
+    background-color: #e8e8e8;
+}
+
+.f-box3 {
+    height: 100%;
+    width: 25%;
+    background-color: #d1d1d1;
+}
+
+.f-box4 {
+    height: 100%;
+    width: 25%;
+    color: white;
+    background-color: #2C2C2C;
+}
+
+.fb-top {
+    height: 60%;
+    width: 100%;
+    background-image: url(asset/Group\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.fb-top2 {
+    height: 60%;
+    width: 100%;
+    background-image: url(asset/image64.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.fb-top3 {
+    height: 60%;
+    width: 100%;
+    background-image: url(asset/image41.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.fb-top4 {
+    height: 60%;
+    width: 100%;
+    background-image: url(asset/Macbook1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#white {
+    color: rgb(167, 167, 167);
+}
+
+.fb-bottom {
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(237, 98, 250); */
+    padding: 20px;
+}
+
+.fb-bottom h2 {
+    font-size: 2.3vw;
+    font-weight: 400;
+}
+
+.fb-bottom p {
+    font-size: 13px;
+    color: #3a3a3a;
+}
+
+.fb-bottom button {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: solid 1px black;
+}
+
+/* FIVE BOXSE */
+
+.five {
+    height: 90%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 60px;
+}
+
+.five p {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.f-boxes-conaitner {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(70, 55, 55); */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.f-box {
+    border-radius: 20px;
+    width: 25%;
+    background-color: #e7e7e7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+}
+
+.f-boxs2 {
+    border-radius: 20px;
+    width: 25%;
+    background-color: #e7e7e7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+}
+
+.f-boxs3 {
+    border-radius: 20px;
+    width: 25%;
+    background-color: #e7e7e7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+}
+
+.f-boxs4 {
+    border-radius: 20px;
+    width: 25%;
+    background-color: #e7e7e7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 11px -1px rgba(0,0,0,0.75);
+}
+
+.f-box-top {
+    height: 35%;
+    width: 50%;
+    background-image: url(asset/Iphone14pro1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.f-box-top2 {
+    height: 35%;
+    width: 50%;
+    background-image: url(asset/headphone.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.f-box-top3 {
+    height: 35%;
+    width: 50%;
+    background-image: url(asset/Iphone14pro1\(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.f-box-top4 {
+    height: 35%;
+    width: 50%;
+    background-image: url(asset/Iphone14pro1\(3\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.f-box-bottom {
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(237, 98, 250); */
+    padding: 20px;
+    text-align: center;
+}
+
+.f-box-bottom h2 {
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.f-box-bottom p {
+    padding-top: 10px;
+    font-size: 2vw;
+    color: #000000;
+}
+
+.f-box-bottom button {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    /* border: solid 1px black; */
+}
+
+/* sixth */
+
+.sixth {
+    margin-top: 50px;
+    height: 65%;
+    width: 100%;
+    background-image: url(asset/Banner\ 2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-content {
+    text-align: center;
+    color: white;
+}
+
+.s-content h1 {
+    line-height: 65px;
+    font-size: 3.7vw;
+    font-weight: 300;
+}
+
+.s-content h1 span {
+    font-weight: 500;
+}
+
+.s-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.653);
+}
+
+.s-content button {
+    margin-top: 30px;
+    padding: 12px 40px;
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer {
+    height: 55%;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-container {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.f-second h6 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.f-second p {
+    font-size: 12px;
+    color: #e7e7e79a;
+    line-height: 28px;
+}
+
+.f-first {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-icons i {
+    padding-left: 20px;
+    font-size: 19px;
+}
+
+.f-first p {
+    padding-top: 10px;
+    width: 90%;
+    font-size: 13px;
+    color: #d1d1d1;
+}
+
+/* Hover State */
+
+nav p {
+    transition: all 0.2s ease-in-out;
+}
+
+nav p:hover {
+    color: #000000;
+    transform: scale(1.2);
+}
+
+nav i {
+    transition: all 0.1s ease-in-out;
+
+    padding: 5px;
+}
+
+nav i:hover {
+    color: #000000;
+    transform: scale(1.2);
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+/* first */
+.white:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.white{
+   transition: all 0.2s ease-in-out;
+}
+.black{
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.black:hover{
+background-color: black;
+color: white;
+}
+.icon-box{
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-box:hover{
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 1px #0000007d;
+    
+}
