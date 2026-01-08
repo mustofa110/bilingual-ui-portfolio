@@ -4,7 +4,7 @@ Selamat datang di repositori proyek eksplorasi saya. Proyek ini berfokus pada pe
 
 ### 🚀 Live Demo
 Lihat tampilan web yang sudah online di sini:  
-👉 **https://github.com/mustofa110/bilingual-ui-portfolio**
+👉 **lagi proses hosting**
 
 ### 🛠️ Tech Stack yang Digunakan
 * **HTML5:** Untuk struktur halaman yang semantik.
